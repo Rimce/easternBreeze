@@ -80,13 +80,13 @@ footer {
   color: $gray-light;
   a {
     color: $gray;
-    &:hover {
+    &hover {
       color: $gray-darker;
-    }
+      }
   }
   small {
     float: left;
-  }
+    }
   ul {
     float: right;
     list-style: none;
