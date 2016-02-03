@@ -10,9 +10,9 @@ class ActiveSupport::TestCase
   include ApplicationHelper
 
   def is_logged_in?
-  	!session[:user_id].nil?
+    !session[:user_id].nil?
   end
-  
+
   # Logs in a test user.
   def log_in_as(user, options = {})
     password    = options[:password]    || 'password'
@@ -28,8 +28,8 @@ class ActiveSupport::TestCase
 
   private
 
-    # Returns true inside an integration test.
-    def integration_test?
-      defined?(post_via_redirect)
-    end
+  # Returns true inside an integration test.
+  def integration_test?
+    defined?(post_via_redirect)
+  end
 end

@@ -1,0 +1,1 @@
+[{"severity":"warning","location":{"begin_pos":2654,"end_pos":2655},"message":"Ambiguous regexp literal. Parenthesize the method arguments if it's surely a regexp literal, or add a whitespace to the right of the `/` if it should be a division.","cop_name":"Lint/AmbiguousRegexpLiteral","status":"unsupported"}]

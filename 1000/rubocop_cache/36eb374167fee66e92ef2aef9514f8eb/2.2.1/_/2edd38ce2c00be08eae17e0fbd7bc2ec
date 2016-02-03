@@ -1,0 +1,1 @@
+[{"severity":"convention","location":{"begin_pos":186,"end_pos":207},"message":"Favor `unless` over `if` for negative conditions.","cop_name":"Style/NegatedIf","status":"uncorrected"}]
